@@ -37,7 +37,7 @@ const Folder = (props) => {
     setCurrentTab(num);
   }
 
-  const folder = folders[this.state.currentTab];
+  const folder = folders[currentTab];
   const titles = folders.map((folder) => folder.title);
 
   return (
